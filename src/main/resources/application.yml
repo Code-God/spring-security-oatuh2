@@ -1,0 +1,24 @@
+github:
+  client:
+    clientId: ad2abbc19b6c5f0ed117
+    clientSecret: 26db88a4dfc34cebaf196e68761c1294ac4ce265
+    accessTokenUri: https://github.com/login/oauth/access_token
+    userAuthorizationUri: https://github.com/login/oauth/authorize
+    clientAuthenticationScheme: form
+    tokenName: oauth_token
+    authenticationScheme: query
+  resource:
+    userInfoUri: https://api.github.com/user
+
+
+# THYMELEAF
+spring:
+  thymeleaf:
+    encoding: UTF-8
+    # 热部署静态文件
+    cache: false
+    # 使用LEGACYHTML5标准
+    mode: LEGACYHTML5
+
+server:
+  port: 8080
